@@ -1,0 +1,274 @@
+@media only screen and (max-width: 330px) {
+  .hero__base {
+    overflow-x: hidden;
+  }
+  .hero__base .buttons {
+    width: 300px;
+  }
+  .hero__base .buttons button {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  body {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    position: relative;
+    background-color: #f9f9ff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;
+    font-family: "DM Sans", sans-serif;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  .hero {
+    width: 100%;
+    margin: 0 0;
+    height: 194px;
+    background: linear-gradient(308.48deg, #5f22cb 61.48%, #f12df5 137.01%);
+    border-radius: 0 0 15px 15px;
+  }
+  .hero__back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .hero__back img {
+    margin-right: 10px;
+  }
+  .hero__back span {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .hero__base {
+    margin: 0 16px;
+    margin-top: 45px;
+    width: auto;
+    height: auto;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+            box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+    border-radius: 5px;
+    padding: 10px 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero__base .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 12px;
+  }
+  .hero__base .buttons button {
+    min-width: 145px;
+    height: 52px;
+    background: #c53b9f;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+  .hero__base .buttons button:first-child {
+    margin-right: 10px;
+    background: rgba(197, 59, 159, 0.1);
+    border: 1px solid #c53b9f;
+    color: #c53b9f;
+  }
+  .hero__base .buttons button:hover {
+    opacity: 0.4;
+    cursor: pointer;
+  }
+  .hero__text {
+    text-align: center;
+  }
+  .hero__text p {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #6023cc;
+    margin-top: 10px;
+  }
+  .hero__text h3 {
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: -5px;
+  }
+  main {
+    background: #f9f9ff;
+  }
+  .bill {
+    margin-top: 100px;
+  }
+  .bill__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 8px 1rem;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  .bill__cards .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .bill__cards img {
+    margin-right: 23px;
+  }
+  .bill__cards p {
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .bill__cards a img {
+    margin: 15px 0;
+  }
+  .transactions {
+    width: auto;
+    height: auto;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+            box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+    border-radius: 5px;
+    margin: 5px 17px;
+    margin-top: 20px;
+    padding: 17px 20px;
+  }
+  .sub-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e3ecf7;
+  }
+  .next-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: right;
+  }
+  .next-flex img {
+    margin-left: 20px;
+  }
+  .next-flex h4 {
+    color: #01ae13;
+  }
+  .no-border {
+    border-bottom: none;
+  }
+  .sub-text p {
+    color: #7a83a2;
+    font-size: 14px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  .transaction-text p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .transaction-text h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .sub-text a {
+    color: #6023cc;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .transaction-text .red {
+    color: #f21d11;
+  }
+  /*footer css*/
+  .footer {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    height: 70px;
+    background-color: white;
+    padding-right: 20px;
+  }
+  .icon {
+    padding: 0 auto;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .icon svg,
+  .icon img {
+    -webkit-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+    color: #4c4079;
+    fill: currentColor;
+  }
+  .icon svg:hover,
+  .icon svg:active,
+  .icon svg:focus {
+    color: #01ae13;
+    fill: currentColor;
+  }
+}
+/*# sourceMappingURL=style.css.map */

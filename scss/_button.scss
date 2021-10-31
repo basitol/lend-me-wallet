@@ -1,0 +1,23 @@
+@media only screen and (max-width: 330px) {
+  .hero {
+    &__base {
+      overflow-x: hidden;
+      .buttons {
+        width: 300px;
+        // width: fit-content;
+        // width: 120px;
+        // padding-left: 40px;
+        // padding-right: 40px;
+        button {
+          //   width: 100px;
+          width: 45%;
+          //   margin-right: 20px;
+
+          //   &:first-child {
+          //     margin-left: 20px;
+          //   }
+        }
+      }
+    }
+  }
+}
